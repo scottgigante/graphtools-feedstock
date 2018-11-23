@@ -1,5 +1,5 @@
 {% set name = "graphtools" %}
-{% set version = "0.1.10" %}
+{% set version = "0.2.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KrishnaswamyLab/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: ddca34659c48de83ff30f86feb1bc01a74f563bc57f2fb2590fb79a6d720f1b9
+  sha256: eda3696bcdcafd8ef948b7714e3a6592561b76b8dbe11e0dfd0503f239bb1a2d
 
 build:
   number: 0
