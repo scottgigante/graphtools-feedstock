@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About graphtools
 ================
 
@@ -18,8 +14,15 @@ Summary: graphtools, tools for building and manipulating graphs in Python.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/graphtools-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/graphtools-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2961&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/graphtools-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -114,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@bebatut](https://github.com/bebatut/)
+* [@scottgigante](https://github.com/scottgigante/)
 
