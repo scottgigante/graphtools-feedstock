@@ -1,5 +1,5 @@
 {% set name = "graphtools" %}
-{% set version = "1.1.0" %}
+{% set version = "1.4.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KrishnaswamyLab/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 57b5d196b9a58d4d7b1292c99f588a7fc45e1a5a794f8a456d554d6f095f5ddf
+  sha256: 714f1777229cbac5b3475872f36fd3e0e14bfa3375b3597b193d5762df5deb0d
 
 build:
   number: 0
@@ -17,15 +17,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.5
   run:
     - future
     - numpy >=1.14.0
     - pygsp >=0.5.1
-    - python >=3.6
-    - scikit-learn >=0.19.1
+    - python >=3.5
+    - scikit-learn >=0.20.0
     - scipy >=1.1.0
-    - tasklogger >=0.2
+    - tasklogger >=1.0
 
 test:
   imports:
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - bebatut
+    - scottgigante
