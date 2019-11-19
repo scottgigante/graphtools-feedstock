@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/KrishnaswamyLab/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: 714f1777229cbac5b3475872f36fd3e0e14bfa3375b3597b193d5762df5deb0d
+  sha256: 84b3c421103a4dc1fcd408d1e6235a5516a5fc33dbf0a87a5f1fe63e8abaf3b3
 
 build:
   number: 0
